@@ -1,0 +1,38 @@
+#back {
+    background-color:red;
+    color:white;
+    width:125px;
+    height:45px;
+    border-radius:8%;
+    font-size:20px;
+}
+
+
+#header {
+    width:500px;
+    color:white;
+    background-color:rgba(255, 218, 5, 0.459);
+}
+
+
+canvas {
+    margin-top:180px;
+animation-name:example;
+animation-duration:2s;
+animation-iteration-count: infinite;
+}
+
+body {
+    background-size: cover;
+}
+
+@keyframes example {
+    from {
+       box-shadow:20px 20px 10px rgb(255, 0, 0), -20px -20px 10px rgb(248, 0, 215);
+       border:10px ridge blue;
+    }
+to {
+    box-shadow:20px 20px 10px rgb(248, 0, 207), -20px -20px 10px white;
+    border:10px double rgb(0, 255, 255);
+}
+}

@@ -1,0 +1,50 @@
+#back {
+    background-color:red;
+    color:white;
+    width:125px;
+    height:45px;
+    border-radius:8%;
+    font-size:20px;
+}
+
+
+#header {
+    width:500px;
+    background-image:url("https://thumbs.dreamstime.com/b/multi-colors-pink-purple-red-yellow-flowers-background-multi-colors-pink-purple-red-yellow-flowers-background-161173089.jpg");
+animation-name:color_style;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes color_style {
+from {
+    color:white;
+}
+
+to {
+    color:rgb(170, 255, 248);
+}
+}
+
+canvas {
+    margin-top:180px;
+animation-name:example;
+animation-duration:1s;
+animation-iteration-count: infinite;
+}
+
+body {
+    background-size: cover;
+}
+
+@keyframes example {
+    from {
+       box-shadow:20px 20px 10px yellow, -20px -20px 10px lime;
+       border:20px double rgb(255, 234, 252);
+    }
+to {
+    box-shadow:20px 20px 10px rgb(248, 0, 0), -20px -20px 10px #003cff;
+    border:none;
+}
+}
